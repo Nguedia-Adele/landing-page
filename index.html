@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fast Food</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="./landing.css">
+		<link href='https://fonts.googleapis.com/css?family=Architects Daughter' rel='stylesheet'>
+		<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+	</head>
+
+	<body>
+		<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+		<div class="hero">
+			<header id="header">
+				<nav id="nav-bar" class="flex">
+					<a href="#">
+						<img
+							id="header-img"
+							src="http://www.transparentpng.com/thumb/food/AlL8lQ-hamburger-potato-chips-food-free-download.png" 
+							alt="burgers and fries logo"
+							class="logo">
+					</a>
+
+					<ul class="flex right no-bullet-list">
+						<li><a class="nav-link" href="#intro">Welcome</a></li>
+						<li><a class="nav-link" href="#menu">Our Menu</a></li>
+						<li><a class="nav-link" href="#subscribe">Subscribe</a></li>
+						<li><a class="nav-link" href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<div class="hero-content">
+				<h1><b>TASTY BURGERS, CRISPY FRIES</b></h1>
+				<h3>Eat, drink, enjoy!</h3>
+			</div>	
+		</div>
+
+		<main class="px-5">
+			<section id="intro" class="flex-around px-5 py-6">
+				<div class="my-auto text-center">
+					<h2>BURGERS, FRIES, DRINKS</h2>
+				</div>
+				<div class="intro-images">
+					<img src="./images/big-burger.png" alt="big burger" class="png-image">					
+					<img src="./images/coke.png" alt="fizzy drink" class="png-image">
+					<img src="./images/fried-chicken.png" alt="fried chicken" class="png-image">
+					<br>
+					<img src="./images/fries.png" alt="french fries and dipping" class="png-image">
+					<img src="./images/rice.png" alt="" class="png-image">
+				</div>
+			</section>
+
+			<section id="menu" class="py-6">
+				<div class="flex-between">
+					<img src="./images/american-burger-fries.jpg" alt="american burger and fries" class="food-img">
+					<img src="./images/appetite.jpg" alt="bbg" class="food-img">
+					<img src="./images/burger-fries.jpg" alt="burger and fries" class="food-img">
+				</div>
+
+				<div class="flex-between">
+					<img src="./images/crispychicken.jpg" alt="crispy chicken" class="food-img">
+					<img src="./images/chicken-strip.jpg" alt="chicken strip" class="food-img">
+					<img src="./images/chicken-rice.jpg" alt="chicken and rice" class="food-img">
+				</div>
+			</section>
+
+
+			<section id="subscribe" class="flex-around px-5 py-6">
+				<div>
+					<h2><small>SUBSCRIBE FOR UPDATES</small></h2>
+					<form action=" https://www.freecodecamp.com/email-submit" id="form">
+						<div>
+							<label for="email">Email</label>
+							<input id="email" name="email" type="email" placeholder="Enter your email"
+							class="text-input">
+						</div>
+						<input type="submit" id="submit" value="SUBSCRIBE" class="button">
+					</form>
+				</div>
+				<iframe
+					id="video"
+					src="https://www.youtube.com/embed/xXcmM_N8QNc"
+					frameborder="0"
+					allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+				</iframe>
+			</section>
+		</main>
+		<footer>
+			<section id="contact">
+				<p>Phone: 555-555-555</p>
+				<p>Email: burger@burgers.fr</p>
+				<p>Address: Burger and Fries</p>
+			</section>
+		</footer>
+	</body>
+</html>
