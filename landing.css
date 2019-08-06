@@ -288,4 +288,12 @@ main {
 		text-align: center;
 		align-items: center;
 	}
+
+	.flex-between {
+		flex-wrap: wrap;
+	}
+
+	.food-img {
+		width: 100%;
+	}
 }
