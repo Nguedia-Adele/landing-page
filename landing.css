@@ -272,7 +272,9 @@ main {
 	}
 
 	.food-img {
-		width: 100vw;
+		width: 280px;
+		height: auto;
+		margin: 5px auto;
 	}
 }
 
